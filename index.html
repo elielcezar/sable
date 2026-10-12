@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SABLE — Autumn collection 2026</title>
+  <meta name="description" content="SABLE Studio Ltd. Fashion that moves with you. Autumn collection 2026, cut at 18 Redchurch Street.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bone: "#EFEDE8",
+            ink: "#101010",
+            mid: "#6A655E",
+            line: "rgba(16,16,16,.14)"
+          },
+          fontFamily: {
+            sans: ["Archivo", "system-ui", "sans-serif"]
+          },
+          letterSpacing: {
+            mark: "0.18em"
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body class="bg-bone text-ink font-sans antialiased">
+  <div class="announce" aria-hidden="true">
+    <div class="ticker">
+      <p>Autumn collection 2026 — Complimentary shipping over £200 — Cut at 18 Redchurch Street — SABLE Studio Ltd —</p>
+      <p>Autumn collection 2026 — Complimentary shipping over £200 — Cut at 18 Redchurch Street — SABLE Studio Ltd —</p>
+    </div>
+  </div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="logo" href="#hero">SABLE</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#cats">Categories</a>
+        <a href="#shop">Shop</a>
+        <a href="#look">Lookbook</a>
+        <a href="#cloth">Cloth</a>
+        <a href="#atelier">Atelier</a>
+      </nav>
+      <div class="nav-end">
+        <a class="bag" href="#shop">
+          <span class="bag-label">Bag</span>
+          <span class="bag-label" id="bag-count">0</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+          <span class="nav-toggle-lines" aria-hidden="true"></span>
+          <span class="sr">Menu</span>
+        </button>
+      </div>
+    </div>
+    <div id="prog"></div>
+  </header>
+
+  <div id="menu" class="menu" hidden>
+    <a href="#cats">Categories</a>
+    <a href="#shop">Shop</a>
+    <a href="#look">Lookbook</a>
+    <a href="#cloth">Cloth</a>
+    <a href="#atelier">Atelier</a>
+    <a href="#signup">The list</a>
+    <p class="menu-bag">Bag <span id="bag-count-menu">0</span></p>
+  </div>
+
+  <main>
+    <section id="hero">
+      <div class="stage">
+        <h1 class="wordmark hero-seq">SABLE</h1>
+        <img
+          class="model hero-seq"
+          src="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/model.png"
+          alt="Model in a long charcoal coat, black cap and white trainers, walking in profile."
+          width="555"
+          height="1041"
+        >
+        <h2 class="corner corner-tl hero-seq">Fashion that moves with you</h2>
+        <h3 class="corner corner-br hero-seq">Autumn collection 2026</h3>
+      </div>
+    </section>
+
+    <section id="cats" class="row">
+      <div class="wrap">
+        <header class="sec-head rv">
+          <p class="kicker">01 — Edit</p>
+          <h2>Three ways to dress the weather.</h2>
+        </header>
+        <div class="cats">
+          <a class="cat rv" href="#shop">
+            <span class="cat-media">
+              <img class="shot" style="--c:1.04" src="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-men.webp" alt="Outerwear: charcoal overshirt worn open over a white tee." width="900" height="502" loading="lazy">
+            </span>
+            <span class="cat-row">
+              <span>
+                <span class="kicker">01</span>
+                <strong>Outerwear</strong>
+              </span>
+              <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </a>
+          <a class="cat rv" href="#shop">
+            <span class="cat-media">
+              <img class="shot" style="--c:1.05" src="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-women.webp" alt="Knitwear: ivory ribbed mock-neck sweater." width="900" height="502" loading="lazy">
+            </span>
+            <span class="cat-row">
+              <span>
+                <span class="kicker">02</span>
+                <strong>Knitwear</strong>
+              </span>
+              <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </a>
+          <a class="cat rv" href="#shop">
+            <span class="cat-media">
+              <img class="shot" style="--c:1.06" src="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-tailoring.webp" alt="Tailoring: charcoal blazer over a black turtleneck." width="900" height="502" loading="lazy">
+            </span>
+            <span class="cat-row">
+              <span>
+                <span class="kicker">03</span>
+                <strong>Tailoring</strong>
+              </span>
+              <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="season">
+      <div class="season-copy">
+        <p class="kicker rv">02 — The season</p>
+        <h2 class="rv">Cut long, worn close, kept for years.</h2>
+        <p class="lede rv">Autumn collection 2026 is a short run of coats, knits and shirting in charcoal, ink and ivory. Cloth chosen for weather that changes its mind.</p>
+        <a class="btn rv" href="#shop">Shop the collection</a>
+      </div>
+      <div class="season-media">
+        <img class="shot season-img" style="--c:1.06" src="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/season.webp" alt="Portrait in a black camp-collar shirt over a white tee." width="1500" height="837" loading="lazy">
+      </div>
+    </section>
+
+    <section id="svc" class="row">
+      <div class="wrap">
+        <header class="sec-head rv">
+          <p class="kicker">03 — Service</p>
+          <h2>From the studio, not a warehouse.</h2>
+        </header>
+        <ul class="svc">
+          <li class="rv">
+            <p class="kicker">Shipping</p>
+            <p>Complimentary over £200. Packed at the table and sent the day the run is finished.</p>
+          </li>
+          <li class="rv">
+            <p class="kicker">Alterations</p>
+            <p>Hem, sleeve and shoulder, done at 18 Redchurch Street. Bring the piece back.</p>
+          </li>
+          <li class="rv">
+            <p class="kicker">Repair</p>
+            <p>Cloth notes travel with every garment. We mend what we make.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="shop" class="row">
+      <div class="wrap">
+        <header class="sec-head rv">
+          <p class="kicker">04 — Shop</p>
+          <h2>Four pieces, all season.</h2>
+        </header>
+        <div class="shop">
+          <article class="card rv">
+            <div class="card-media">
+              <img class="shot" style="--c:1.05" src="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-overshirt.webp" alt="Charcoal wool overshirt, buttoned, over a white tee and black trousers." width="900" height="1200" loading="lazy">
+              <button class="fav" type="button" aria-pressed="false" aria-label="Save Wool Overshirt">
+                <svg viewBox="0 0 24 24"><path d="M12 20.5 3.8 12.6a5 5 0 0 1 7.1-7l1.1 1.1 1.1-1.1a5 5 0 0 1 7.1 7Z"/></svg>
+              </button>
+              <button class="add" type="button" data-add>Add to bag</button>
+            </div>
+            <div class="card-meta">
+              <h3>Wool Overshirt</h3>
+              <p class="price">£280</p>
+              <p>Charcoal</p>
+            </div>
+          </article>
+          <article class="card rv">
+            <div class="card-media">
+              <img class="shot" style="--c:1.05" src="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-tee.webp" alt="Ink heavyweight tee with black pleated trousers." width="900" height="1200" loading="lazy">
+              <button class="fav" type="button" aria-pressed="false" aria-label="Save Heavyweight Tee">
+                <svg viewBox="0 0 24 24"><path d="M12 20.5 3.8 12.6a5 5 0 0 1 7.1-7l1.1 1.1 1.1-1.1a5 5 0 0 1 7.1 7Z"/></svg>
+              </button>
+              <button class="add" type="button" data-add>Add to bag</button>
+            </div>
+            <div class="card-meta">
+              <h3>Heavyweight Tee</h3>
+              <p class="price">£85</p>
+              <p>Ink</p>
+            </div>
+          </article>
+          <article class="card rv">
+            <div class="card-media">
+              <img class="shot" style="--c:1.06" src="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-cardigan.webp" alt="Graphite ribbed cardigan over a black tee." width="900" height="1200" loading="lazy">
+              <button class="fav" type="button" aria-pressed="false" aria-label="Save Rib Cardigan">
+                <svg viewBox="0 0 24 24"><path d="M12 20.5 3.8 12.6a5 5 0 0 1 7.1-7l1.1 1.1 1.1-1.1a5 5 0 0 1 7.1 7Z"/></svg>
+              </button>
+              <button class="add" type="button" data-add>Add to bag</button>
+            </div>
+            <div class="card-meta">
+              <h3>Rib Cardigan</h3>
+              <p class="price">£320</p>
+              <p>Graphite</p>
+            </div>
+          </article>
+          <article class="card rv">
+            <div class="card-media">
+              <img class="shot" style="--c:1.08" src="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-knit.webp" alt="Ivory cable-knit crewneck sweater with black trousers." width="900" height="1200" loading="lazy">
+              <button class="fav" type="button" aria-pressed="false" aria-label="Save Cable Knit">
+                <svg viewBox="0 0 24 24"><path d="M12 20.5 3.8 12.6a5 5 0 0 1 7.1-7l1.1 1.1 1.1-1.1a5 5 0 0 1 7.1 7Z"/></svg>
+              </button>
+              <button class="add" type="button" data-add>Add to bag</button>
+            </div>
+            <div class="card-meta">
+              <h3>Cable Knit</h3>
+              <p class="price">£340</p>
+              <p>Ivory</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="look" class="row">
+      <div class="wrap">
+        <header class="sec-head rv">
+          <p class="kicker">05 — Lookbook</p>
+          <h2>Worn, not styled.</h2>
+        </header>
+        <div class="look-grid">
+          <figure class="lg-a">
+            <img class="shot look-img" style="--c:1.08" src="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/look1.webp" alt="Long charcoal coat, hands in pockets, against a concrete wall." width="1400" height="781" loading="lazy">
+            <figcaption>01 — The coat</figcaption>
+          </figure>
+          <figure class="lg-b">
+            <img class="shot look-img" style="--c:1.06" src="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/look2.webp" alt="Two figures on a stone bench, one in an ivory cable knit, one in a black overshirt." width="1600" height="893" loading="lazy">
+            <figcaption>02 — Knit and overshirt</figcaption>
+          </figure>
+          <div class="lg-c">
+            <p class="kicker rv">Autumn / Winter</p>
+            <p class="lede rv">Two looks from the set. Natural light, the colour taken out, so the cloth is what you see. The coat is wool coating. The knit is merino, worn to the wrist.</p>
+            <a class="text-link rv" href="#cloth">Read the cloth →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cloth" class="row">
+      <div class="wrap cloth-grid">
+        <div class="cloth-copy">
+          <p class="kicker rv">06 — Cloth</p>
+          <h2 class="rv">Three cloths, all season.</h2>
+          <p class="lede rv">A short mill list. Weight you can name, hand that lasts past one winter, nothing in the range that only works for a single month.</p>
+          <dl class="rv">
+            <div>
+              <dt>Wool coating</dt>
+              <dd>640 gsm</dd>
+              <p>The long coat. Dense, matte, cut with room to walk.</p>
+            </div>
+            <div>
+              <dt>Cotton jersey</dt>
+              <dd>220 gsm</dd>
+              <p>The tee. Heavy enough to hold a shoulder, washed to a soft ink.</p>
+            </div>
+            <div>
+              <dt>Merino wool</dt>
+              <dd>320 gsm</dd>
+              <p>Cable and rib. Worn next to skin, from the first cold day through spring.</p>
+            </div>
+          </dl>
+        </div>
+        <div class="cloth-media">
+          <video
+            id="cloth-video"
+            class="shot"
+            style="--c:1.04"
+            muted
+            loop
+            playsinline
+            preload="none"
+            poster="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cloth.webp"
+            data-src="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cloth.mp4"
+          ></video>
+        </div>
+      </div>
+    </section>
+
+    <section id="atelier">
+      <div class="atelier-media">
+        <img class="shot" style="--c:1.07" src="https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/atelier.webp" alt="Hands guiding wool cloth through an industrial sewing machine beside a studio window." width="1400" height="781" loading="lazy">
+      </div>
+      <div class="atelier-copy">
+        <p class="kicker rv">07 — Atelier</p>
+        <h2 class="rv">SABLE Studio Ltd</h2>
+        <p class="lede rv">Cut and finished by hand at 18 Redchurch Street, London. Eleven people, one room. Runs stop when the cloth does.</p>
+        <dl class="stats">
+          <div class="rv">
+            <dt>People</dt>
+            <dd data-count="11">11</dd>
+          </div>
+          <div class="rv">
+            <dt>Styles</dt>
+            <dd data-count="42">42</dd>
+          </div>
+          <div class="rv">
+            <dt>Units</dt>
+            <dd data-count="120">120</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="signup" class="row">
+      <div class="wrap signup">
+        <div>
+          <p class="kicker rv">08 — The list</p>
+          <h2 class="rv">Two letters a season.</h2>
+          <p class="lede rv">Cloth, the cut of the next run, and the morning it leaves 18 Redchurch Street. No weekly mail.</p>
+        </div>
+        <form class="signup-form rv" id="signup-form">
+          <label class="sr" for="email">Email address</label>
+          <input id="email" name="email" type="email" required autocomplete="email" placeholder="Email address">
+          <button class="btn" type="submit">Join</button>
+          <p class="form-note" id="form-note" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap foot-grid">
+      <div>
+        <p class="logo">SABLE</p>
+        <p>SABLE Studio Ltd<br>18 Redchurch Street<br>London</p>
+      </div>
+      <div>
+        <p class="kicker">Visit</p>
+        <p>By appointment, Tuesday to Saturday. The cloth is on the table if you want to feel it first.</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="#shop">Shop</a>
+        <a href="#look">Lookbook</a>
+        <a href="#cloth">Cloth</a>
+        <a href="#atelier">Atelier</a>
+        <a href="#signup">The list</a>
+      </nav>
+    </div>
+    <div class="wrap foot-bar">
+      <p>© 2026 SABLE Studio Ltd</p>
+      <p>Autumn collection 2026</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
